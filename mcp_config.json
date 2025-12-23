@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cmdb-server": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "env": {
+        "AWS_DEFAULT_REGION": "us-east-1"
+      }
+    }
+  }
+}
