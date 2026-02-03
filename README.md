@@ -296,9 +296,9 @@ streamlit run streamlit_app.py --server.port=8503 --server.address=0.0.0.0
 
 **1단계: 데이터 로드 시 익명화**
 - S3에서 데이터를 가져올 때 자동 익명화
-- 계정 ID: `703172063505` → `703*********`
-- ARN: `arn:aws:iam::703172063505:role/...` → `arn:aws:iam::703*********:role/...`
-- Access Key: `AKIAIOSFODNN7EXAMPLE` → `AKIAIOSF************`
+- 계정 ID: `703000000000` → `703*********`
+- ARN: `arn:aws:iam::703000000000:role/...` → `arn:aws:iam::703*********:role/...`
+- Access Key: `AAABBBCCCDDDEEE` → `AAABBB************`
 - IP 주소: `10.0.1.100` → `10.0.*.**`
 
 **2단계: AI 답변 익명화**
